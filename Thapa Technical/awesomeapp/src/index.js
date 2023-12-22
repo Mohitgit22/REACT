@@ -1,10 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <h1>HELLO WORLD!!!!</h1>
-);
+ReactDOM.render(<h1>Hello World !! </h1>, 
+      document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
