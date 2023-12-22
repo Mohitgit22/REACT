@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom"
 
-const channel = "Netflix" 
+const fname = "Mohit";
+const lname = "Verma"
 ReactDOM.render(
      <>
-      <h1> Thapa Technical {channel} Pick</h1>
+      <h1>{`my name is ${fname} ${lname}`}</h1>
      </>,
      document.getElementById("root")
 )
