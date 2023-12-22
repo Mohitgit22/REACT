@@ -1,10 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom"
 
 ReactDOM.render(
-      <>
-      <h1>Thapa technical !! </h1>
-      <p>Plz like and share</p>
-      </>, 
-      document.getElementById("root"));
+     <>
+      <h1> Thapa Technical Netflix Pick</h1>
+      <p> List of 5 Best Series</p>
+      <ol>
+        <li>Dark</li>
+        <li>Extra curricular</li>
+        <li>My Holo Love</li>
+        <li>My first-2 Love</li>
+        <li>Mr Robot</li>
+      </ol>
+     </>,
+     document.getElementById("root")
+)
       
